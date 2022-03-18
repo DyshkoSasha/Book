@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    generate-ddl: true
+    database: postgresql
+  datasource:
+    url: jdbc:postgresql://localhost:5432/alex
+    username: alex
+    password: alex
+    driver-class-name: org.postgresql.Driver
